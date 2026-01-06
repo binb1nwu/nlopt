@@ -1,6 +1,16 @@
 [![Latest Docs](https://readthedocs.org/projects/nlopt/badge/?version=latest)](http://nlopt.readthedocs.io/en/latest/)
 [![Build Status](https://github.com/stevengj/nlopt/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/stevengj/nlopt/actions/workflows/build.yml)
 
+# To install
+```bash
+cd nlopt
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+make
+sudo make install
+```
+
 NLopt is a library for nonlinear local and global optimization, for
 functions with and without gradient information.  It is designed as
 a simple, unified interface and packaging of several free/open-source
